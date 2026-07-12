@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  code-formatter:
+    build: .
+    volumes:
+      - .:/code
+    command: /code
